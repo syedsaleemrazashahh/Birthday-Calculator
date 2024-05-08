@@ -6,8 +6,8 @@ function calculateBirthday() {
 
   const resultContainer = document.getElementById("result");
   resultContainer.innerHTML = `
-    <p>Age: ${age.years} years, ${age.months} months, ${age.days} days</p>
-  `;
+      <p>Age: ${age.years} years, ${age.months} months, ${age.days} days</p>
+    `;
 }
 
 function calculateAge(birthdate, today) {
